@@ -74,3 +74,6 @@ button{
 button:active{
     font-size: 19px;
 }
+input:focus::placeholder{
+    color: white;
+}
