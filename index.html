@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>sign up</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="./images/icon1.jpg" alt="icon" class="icon">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Log in</a></li>
+        </ul>
+    </div>
+    <div class="cont">
+        <div class="imag">
+            <img src="./images/Mobile login.gif" alt="signup">
+            <div class="icon"></div>
+        </div>
+        <div class="content">
+            <form action="#">
+                <div class="row">
+                    <div class="cont1">
+                        <input type="text" class="fname" required maxlength="20" minlength="5" placeholder="First Name">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="cont1">
+                        <input type="text" class="Lname" required maxlength="20" minlength="5" placeholder="Last Name">
+                        <label for="Lname">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cont1">
+                        <input type="email" class="mail" required placeholder="Email">
+                        <label for="mail">Email</label>
+                    </div>
+                    <div class="cont1">
+                        <input type="number" class="age" required  min="18" placeholder="Age">
+                        <label for="age">Age</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cont1">
+                        <input type="password" class="p1" required maxlength="20" minlength="8" placeholder="Password">
+                        <label for="p1">Password</label>
+                    </div>
+                    <div class="cont1">
+                        <input type="password" class="p2" required maxlength="20" minlength="8" placeholder="Confirm Password">
+                        <label for="p2">Confirm Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <button type="submit">Submit</button>
+                </div>
+                <div class="row">
+                    <div>Already have an acount ?
+                        <span><a href="#">sign in</a></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
